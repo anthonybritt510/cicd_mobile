@@ -21,11 +21,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CI/CD TEST APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COV-95-C5V">
+                                <rect key="frame" x="30" y="171" width="354" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Iev-3i-bbD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="0bZ-uh-JKT"/>
+                            <constraint firstItem="COV-95-C5V" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="He0-SS-a8e"/>
+                            <constraint firstItem="COV-95-C5V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="127" id="MGz-qk-JK9"/>
                             <constraint firstItem="Iev-3i-bbD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bOG-pt-8PP"/>
+                            <constraint firstItem="COV-95-C5V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="nof-cn-z5g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
